@@ -29,7 +29,7 @@ Redmine::Plugin.register :redmine_oauth do
   url 'https://github.com/kontron/redmine_oauth'
   author_url 'https://github.com/kontron/redmine_oauth/graphs/contributors'
 
-  requires_redmine version_or_higher: '5.1.0'
+  requires_redmine version_or_higher: '5.0.4'
 
   settings default: {
     oauth_name: 'none',
